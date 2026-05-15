@@ -32,35 +32,6 @@ Ollama	Local LLM execution
 ChromaDB	Vector database
 Pydantic	Validation
 
-**Project Structure**
-app/
-│
-├── api/
-│   └── routes.py
-│
-├── agents/
-│   ├── quiz_agent.py
-│   └── evaluation_agent.py
-│
-├── services/
-│   ├── quiz_service.py
-│   └── submission_service.py
-│
-├── schemas/
-│   ├── quiz_schema.py
-│   └── submission_schema.py
-│
-├── db/
-│   ├── database.py
-│   ├── base.py
-│   └── models/
-│
-├── rag/
-│   ├── vector_db.py
-│   ├── retriever.py
-│   └── ingest.py
-│
-└── main.py
 
 **Installation**
 1. Clone repository
